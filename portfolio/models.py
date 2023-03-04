@@ -1,7 +1,7 @@
 from distutils.command.upload import upload
 from django.db import models
 from django.forms import CharField
-from tables import Description
+# from tables import Description
 
 class Project(models.Model):
     title = models.CharField(max_length=50)
